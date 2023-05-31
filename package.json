@@ -17,7 +17,6 @@
     }
   },
   "sideeffects": false,
-  "author": "Matthias Stiller",
   "keywords": [
     "vue",
     "input mask",
