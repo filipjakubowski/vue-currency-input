@@ -18,11 +18,6 @@
   },
   "sideeffects": false,
   "author": "Matthias Stiller",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/filipjakubowski/vue-currency-input.git"
-  },
-  "homepage": "https://filipjakubowski/vue-currency-input",
   "keywords": [
     "vue",
     "input mask",
