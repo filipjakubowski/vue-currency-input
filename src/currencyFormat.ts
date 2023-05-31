@@ -20,12 +20,12 @@ export default class CurrencyFormat {
   negativeSuffix: string
 
   constructor(options: CurrencyInputOptions) {
-    const { currency, currencyDisplay, locale, precision, accountingSign, useGrouping } = options
+    const { currency, currencyDisplay, locale, precision, accountingSign, useGrouping, percentage } = options
     this.locale = locale
     this.options = {
       currency,
       useGrouping,
-      style: 'currency',
+      style: percentage ? 'percent' : 'currency',
       currencySign: accountingSign ? 'accounting' : undefined,
       currencyDisplay: currencyDisplay !== CurrencyDisplay.hidden ? currencyDisplay : undefined
     }

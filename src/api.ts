@@ -41,6 +41,7 @@ export interface CurrencyInputOptions {
   useGrouping?: boolean
   valueRange?: NumberRange
   valueScaling?: ValueScaling
+  percentage?: boolean
 }
 
 export interface UseCurrencyInput {
