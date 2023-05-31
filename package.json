@@ -20,9 +20,9 @@
   "author": "Matthias Stiller",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dm4t2/vue-currency-input.git"
+    "url": "https://github.com/filipjakubowski/vue-currency-input.git"
   },
-  "homepage": "https://dm4t2.github.io/vue-currency-input",
+  "homepage": "https://filipjakubowski/vue-currency-input",
   "keywords": [
     "vue",
     "input mask",
